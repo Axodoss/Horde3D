@@ -28,7 +28,7 @@ class LightNode;
 class CameraNode;
 struct ShaderContext;
 
-const uint32 MaxNumOverlayVerts = 2048;
+const uint32 MaxNumOverlayVerts = 8192;
 const uint32 ParticlesPerBatch = 64;	// Warning: The GPU must have enough registers
 const uint32 QuadIndexBufCount = MaxNumOverlayVerts * 6;
 
